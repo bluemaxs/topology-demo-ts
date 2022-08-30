@@ -1,0 +1,84 @@
+.redis-topology-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redis-icon {
+    width: 40px;
+    height: 40px;
+}
+.change-icon {
+    transform: rotate(0.25turn);
+    width: 40px;
+    height: 40px;
+}
+.redis-icon-basic {
+    text-align: center;
+    margin: 16px 0px;
+    cursor: pointer;
+}
+.redis-icon-basic:hover {
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
+.redis-icon-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #585858;
+}
+.service-box {
+    width: 100%;
+    height: auto;
+    border: 1px solid #f3f3f3;
+    margin: 12px;
+    padding: 12px
+}
+.service-title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-title-left {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.service-title-right {
+    display: flex;
+    column-gap: 8px;
+}
+
+.service-mode-content {
+    margin-left: 100px;
+}
+.service-value {
+    color: #000000;
+}
+.service-label {
+    color: #8a8a8a;
+}
+.service-action {
+    color: #226ee7;
+}
+.driver-line {
+    width: 100%;
+    height: 24px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.pod-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 60px;
+    grid-column: 60px;
+}
+.pod-type-box {
+    height: auto;
+    border: 1px solid #f3f3f3;
+    margin: 24px;
+    padding: 24px
+}
+.pod-icon-box {
+    display: flex;
+    column-gap: 48px;
+}
